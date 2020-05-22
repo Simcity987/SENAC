@@ -1,0 +1,9 @@
+1 - Crie um banco de dados com o nome de sua preferência;
+2 - Crie uma tabela neste banco de dados com o nome tb_aluno;
+3 - Crie três campos na tabela tb_aluno:
+nome, tipo text
+idade, tipo numeric
+classe, char
+4 - Através de instruções ao bancos de dados por meio de Lingaugem SQL, insira cinco registros na tebela tb_aluno, com valores conforme o exemplo abaixo:
+João,25,A
+5 - Após, execute uma instrução no banco de dados por meio da Linguagem SQL para buscar todos os registros armazenados tabela tb_aluno.
