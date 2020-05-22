@@ -1,0 +1,9 @@
+1 - Crie um programa que implemente contas (corrente e economia).
+2 - Refazer todos os códigos realizados da Aula 04 acrescentando os modificadores necessários. Enviar, aqui, os novos códigos.
+3 - Refazer todos os códigos realizados da Aula 04 (animais) acrescentando sobrecarga de métodos. Deve ser utilizado, pelo menos, uma redefinição. É permitido criar novos métodos e atributos além dos que estão nos slides. Além disso, incluir no código modificadores. Enviar, aqui, os novos código.
+4 - Fazer o diagrama de classe do código realizado na Aula 06 (animais). Fazer o diagrama de classe e de caso de uso do código Escola (classe professor, aluno e funcionário). Enviar, aqui, os arquivos do software Astah (compactados).
+5 - Crie um programa que utilize interfaces. O programa deve
+implementar formas geométricas:
+• Uma interface para forma geométricas;
+• Uma classe quadrado que implemente essa interface;
+• Uma classe triângulo que implemente essa interface.
