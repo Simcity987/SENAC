@@ -1,0 +1,23 @@
+**Prompt de Comando**
+git --version - ver a versão do git
+git config --global user.name "Carlos Caiado" - configurar o nome do user
+git config --global user.email "carloscaiado753@gmail.com" - configurar o email do user
+cls - limpar os comandos
+
+***Git***
+*Crie uma pasta*
+mkdir git_local - cria uma pasta
+ls - ver os conteudos da pasta
+cd git_local - entra na pasta
+clear - limpar os comandos
+git init - inicio um repositorio
+pico Cliente.java - crie um arquivo
+git status - verificar o status da pasta
+git add nomedoarquivo - para rastrear o arquivo
+git rm --chaced nomedoarquivo - remove a ultima alteração que ocorreu no arquivo
+git commit -m "Alguma mensagem" -  comitar com mensagem
+git log - mostra a lista de commit feitos no projeto
+git log --oneline 
+pico .gitignore - é um arquivo de texto que diz ao Git quais arquivos ou pastas ele deve ignorar em um projeto.
+
+
