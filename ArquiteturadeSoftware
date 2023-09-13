@@ -1,0 +1,79 @@
+# POO
+    --> Reutilização de Código.
+    
+## Revisão POO
+
+- Nome de classe em Java é Maiúsculo.
+- Nome de variavel em Java é Minúsculo.
+
+- Relacionamento "é um" significa herança.
+- Herança em Java é representada por extends.
+
+   ## Encapsulamento
+      - Ocultar informaçoes do objeto.
+      - Facilita o relacionamento dos objetos.
+      - Proteger as informações.
+      - Facilita o uso dos objetos.
+      - Dica do dia: Ao construir uma classe, uma boa prática é ocultar (private) os atributos da classe.
+
+--> Parametros
+        Serve para receber valor que a classe não tem.
+
+- **Construtor**
+    O que é?
+        É um método especial.
+                1--> Não tem retorno.
+                2--> Nome dele tem que ser o mesmo da classe.
+                3***> é chamado automaticamente pelo compilador.
+                        Quando o objeto é instaciado.
+                4***> A primeira linha de QUALQUER construtor é a instrução "super()".
+    Dica: 
+        1 - Uma classe PODE ter mais de um construtor.
+                Os tipos do parametros tem que ser diferente.
+        2 - O construtor sem parametros é chamados de Construtor Padrão.
+                *** Toda classe tem construtor.
+                *** SE não tiver construtor na classe, é colocado um construtor padrão.
+    Qual é o motivo existencial do Construtor?
+        - Inicializar as variáveis de instancia.
+        - Fazer um cálculo inicial.
+        - Sempre vai ser executado ao criar o objeto.
+
+### Herança
+- **Definição**
+  - Técnica de 00 que permite reutilizar código.
+  - **OBS:** herança é um relacionamento do tipo *é-um*
+- **Como implementar herança?**
+  - Utilizando a palavra-chave **extends** depois do nome da classe.
+- **Motivação**
+  - Reuso de Código
+    - Evita replicar código.
+    - Declaração de membros (atrbiutos e métodos) em um único ponto
+
+### Sobreescrita
+   - É uma técnica que substitui a implementação geral da superclasse.
+
+### Métodos
+   - Definições e Impacto na arquitetura
+   - Assinatura
+   - Implementação
+
+### Herança Múltipla
+   - Definição e por que precisa?
+   - A dificuldade de implementação nas linguagens 00
+   - Por que arquitetos evitam utilizar a herança múltipla oferecida atualmente?
+   - Como o Java oferece herança múltipla?
+
+### Interface
+   - Definir a estrutura da interface.
+   - Quando utilizar?
+
+### Classe Abstrata
+   - Definir 
+   - Quando utilizar?
+
+### Classe Abstrata vs Interface
+
+### Polimorfismo
+  - Vinculação Estática
+  - Vinculação Dinâmica
+  - Definir Polimorfismo
