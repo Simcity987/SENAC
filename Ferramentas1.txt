@@ -11,7 +11,7 @@ ls - ver os conteudos da pasta
 cd git_local - entra na pasta
 clear - limpar os comandos
 git init - inicio um repositorio
-pico Cliente.java - crie um arquivo
+notepad - crie um arquivo
 git status - verificar o status da pasta
 git add nomedoarquivo - para rastrear o arquivo
 git rm --chaced nomedoarquivo - remove a ultima alteração que ocorreu no arquivo
