@@ -19,5 +19,10 @@ git commit -m "Alguma mensagem" -  comitar com mensagem
 git log - mostra a lista de commit feitos no projeto
 git log --oneline 
 touch .gitignore - é um arquivo de texto que diz ao Git quais arquivos ou pastas ele deve ignorar em um projeto.
-
-
+git restore - restaurar algum arquivo ou projeto
+git log --graph - mostra a lista de commit feitos no projeto de forma gráfica
+git log --parents
+git branch - lista as branchs
+git branch -v - mostra o ultimo commit que foi feito na branch
+git branch nomedabranch - criar uma nova branch
+git checkout nomedabranch - muda de branch
