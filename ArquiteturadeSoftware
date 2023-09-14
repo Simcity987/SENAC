@@ -94,7 +94,8 @@
 - Definir 
   - Pode ter métodos abstratos
 - Quando utilizar?
-
+  1. Agrupamento (classe é muito geral)
+  2. Para a classe abstrata, algum comportamento é muito geral (método abstrato).
 ### Classe Abstrata vs Interface
 -
 
