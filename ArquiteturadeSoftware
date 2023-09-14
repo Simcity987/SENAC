@@ -10,11 +10,11 @@
 - Herança em Java é representada por extends.
 
    ## Encapsulamento
-      - Ocultar informaçoes do objeto.
-      - Facilita o relacionamento dos objetos.
-      - Proteger as informações.
-      - Facilita o uso dos objetos.
-      - Dica do dia: Ao construir uma classe, uma boa prática é ocultar (private) os atributos da classe.
+    - Ocultar informaçoes do objeto.
+    - Facilita o relacionamento dos objetos.
+    - Proteger as informações.
+    - Facilita o uso dos objetos.
+    - Dica do dia: Ao construir uma classe, uma boa prática é ocultar (private) os atributos da classe.
 
 --> Parametros
         Serve para receber valor que a classe não tem.
@@ -50,30 +50,57 @@
     - Declaração de membros (atrbiutos e métodos) em um único ponto
 
 ### Sobreescrita
-   - É uma técnica que substitui a implementação geral da superclasse.
+- É uma técnica que substitui a implementação geral da superclasse.
+
+### Sobrecarga
+- São dois ou mais métodos com o mesmo nome e parâmetros diferentes.
 
 ### Métodos
-   - Definições e Impacto na arquitetura
-   - Assinatura
-   - Implementação
+- Método --> Comportamento --> Ação
+  - nome tem que ser verbo.
+- Definições e Impacto na arquitetura
+- Assinatura
+  - O que faz?
+  -  Contrato
+- Implementação(Corpo do Método)
+  - Como fazer
 
 ### Herança Múltipla
-   - Definição e por que precisa?
-   - A dificuldade de implementação nas linguagens 00
-   - Por que arquitetos evitam utilizar a herança múltipla oferecida atualmente?
-   - Como o Java oferece herança múltipla?
+- Definição e por que precisa?
+  - Quando uma classe herda de duas ou mais classes (superclasses)
+- Por que?
+  - Pq o mundo real existe herança múltipla.
+- A dificuldade de implementação nas linguagens OO
+- Por que arquitetos evitam utilizar a herança múltipla oferecida atualmente?
+- Como o Java oferece herança múltipla?
+  - Herança Múltipla por Contrato
+
+### Método Abstrato
+- Definição
+  - Método que possui somente assinatura do método (contrato)
+- *Exemplo*
+  *- public abstract void autorizar();* 
+- Método abstrato só pode exister em classes abstratas ou interfaces.
+- **OBS:**
+  - Toda classe faz herança com uma classe abstrata ou interface tem que oferecer uma implementação para o método abstrato, exceto classes abstratas.
 
 ### Interface
-   - Definir a estrutura da interface.
-   - Quando utilizar?
+- Definir a estrutura da interface.
+  - Contrato
+    - Somente assinatura de métodos (Contrato)
+- Quando utilizar?
 
 ### Classe Abstrata
-   - Definir 
-   - Quando utilizar?
+- Definir 
+  - Pode ter métodos abstratos
+- Quando utilizar?
 
 ### Classe Abstrata vs Interface
+-
 
 ### Polimorfismo
-  - Vinculação Estática
-  - Vinculação Dinâmica
-  - Definir Polimorfismo
+- Vinculação Estática
+- Vinculação Dinâmica
+- Definir Polimorfismo
+- Qual é a importância do Polimorfismo?
+
