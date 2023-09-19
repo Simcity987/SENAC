@@ -27,3 +27,13 @@ git branch - lista as branchs
 git branch -v - mostra o ultimo commit que foi feito na branch
 git branch nomedabranch - criar uma nova branch
 git checkout nomedabranch - muda de branch
+
+git remote add origin linkdogithub - onde o codigo será enviado;
+git push - envia as atualizações para a nuvem na branch atualmente ativa;
+git push --set-upstream origin nomedabranch - vai mandar os arquivos para a branch selecionada;
+git reflog - historico das versões adicionados no momento atual e antiga;
+git reset --hard numerodoid - muda de versão;
+git merge "branch a receber merge" - unir uma branch com outra branch;
+git pull - atualiza a branch atualmente ativa;
+git checkout -b "nome da branch de origin" "nome da nova branch" - permite mudar e criar uma nova branch com base em outra;
+touch .gitignore - utilizado para descrever ao Git tanto as pastas quanto os arquivos que a pessoa desenvolvedora deseja que sejam ignorados.
