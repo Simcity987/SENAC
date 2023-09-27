@@ -37,3 +37,4 @@ git merge "branch a receber merge" - unir uma branch com outra branch;
 git pull - atualiza a branch atualmente ativa;
 git checkout -b "nome da branch de origin" "nome da nova branch" - permite mudar e criar uma nova branch com base em outra;
 touch .gitignore - utilizado para descrever ao Git tanto as pastas quanto os arquivos que a pessoa desenvolvedora deseja que sejam ignorados.
+nano nomedoarquivo - abrir o arquivo para modificicações.
