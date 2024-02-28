@@ -7,9 +7,9 @@ cls - limpar os comandos
 ***Git***
 *Crie uma pasta*
 mkdir git_local - cria uma pasta
-ls - ver os conteudos da pasta
+ls/dir - ver os conteudos da pasta
 cd git_local - entra na pasta
-clear - limpar os comandos
+clear/cls - limpar os comandos
 git init - inicio um repositorio
 notepad - crie um arquivo
 git status - verificar o status da pasta
